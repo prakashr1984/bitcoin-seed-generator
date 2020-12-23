@@ -4,7 +4,9 @@ A simple device that can generate a 12/24 word mneumonic offline.
 
 ## Hardware
 
-1. [MstickC](https://m5stack.com/products/stick-c?variant=17203451265114)
+[MstickC](https://m5stack.com/products/stick-c?variant=17203451265114)
+
+![MstickC](https://raw.githubusercontent.com/prakashr1984/bitcoin-seed-generator/master/docs/images/m5stick.jpg)
 
 ## Software
 
@@ -23,11 +25,13 @@ cd bitcoin-seed-generator
 
 - Open the `bitcoin-seed-generator` folder in VS Code.
 - PlatformIO: Build
+  ![Build](https://raw.githubusercontent.com/prakashr1984/bitcoin-seed-generator/master/docs/images/verify.jpg)
 
 ## Upload Firmware to MstickC
 
 - Make sure you have the device connected via USB
 - PlatformIO: Upload
+  ![Build](https://raw.githubusercontent.com/prakashr1984/bitcoin-seed-generator/master/docs/images/Upload.jpg)
 
 ## Dependencies
 
