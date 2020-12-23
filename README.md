@@ -44,3 +44,30 @@ lib_deps =
   https://github.com/m5stack/M5StickC.git#0.2.0
   https://github.com/micro-bitcoin/uBitcoin.git
 ```
+
+## Developer Guide
+
+Please refer to the [uBitcoin doc](https://micro-bitcoin.github.io/#/tutorial/README) to learn about the API's available in the bitcoin library.
+
+The main source code resides in `src/` folder.
+
+```
+.
++-- src
+|   +-- main.cpp
+|   +-- Mnemonic.cpp
+|   +-- Mnemonic.h
+```
+
+main.cpp - contains the bare minimum UI and code for seed generation. At present it uses the M5stick IMU library functions `getAccelData` , `getGyroData` to generate a randomness. It also uses `getTempData` to increase this randomness.
+
+Mnemonic.cpp/.h - contains a custom logic for generating a random seed based on a sequence of float values (from any analog input pin of a device).
+
+## ToDo
+
+- Imporve the UI
+- Additinal tools
+  - Generate Checksum word
+  - Generate Recieve addresses based on xpub stored on the device.
+  - Generate a series of 24 word Seeds from an existing Seed ?
+  - More...
