@@ -1,12 +1,12 @@
 # A Bitcoin Mneumonic generator for MstickC.
 
-A simple device that can generate a 12/24 word mneumonic offline.
+A simple dedicated device that can be used to generate a 12/24 word mneumonic offline. It uses the inbuilt hardware (6-axis IMU SH200Q) and to generate entropy.
+
+![MstickC](https://raw.githubusercontent.com/prakashr1984/bitcoin-seed-generator/master/docs/images/m5stick.jpg)
 
 ## Hardware
 
 [MstickC](https://m5stack.com/products/stick-c?variant=17203451265114)
-
-![MstickC](https://raw.githubusercontent.com/prakashr1984/bitcoin-seed-generator/master/docs/images/m5stick.jpg)
 
 ## Software
 
